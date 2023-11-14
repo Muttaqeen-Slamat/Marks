@@ -68,6 +68,50 @@ btnSubmit.addEventListener('click', displayMarks)
 //     console.log(i);
 // }
 
-for(let i=0; ){
+for(let i=0; i<=10; i++){
+    if(i % 2==0){
+        console.log(i);
+    }
+}
+
+for(let i=0; i<=10; i++){
+    if(i % 2==0)
+        console.log(i);
+    else
+    console.log(`${i} is an odd number`);
+}
+//ternary operator => ? :
+for(let i=0; i<=10; i++){
+    console.log(i % 2 == 0 ? `${i} is even` : `${i} is odd`);
+}
+
+for (let i=10; i>=0; i--){
     console.log(i);
 }
+
+for(let i=0; i<=10; i++){
+    console.log(i);
+    if(i == 5){
+        break
+    }
+}
+
+for(let i=0; i<=10; i++){
+    if(1==5){
+        //skip
+        continue
+    }
+    console.log(i);
+}
+
+
+
+
+
+
+// let numbers = [12, 18, 11, 5, 8, 2];
+// console.log(numbers.length);
+
+// for( ){
+//     console.log()
+// }
