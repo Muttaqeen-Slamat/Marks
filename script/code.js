@@ -59,3 +59,15 @@ function displayMarks(){
     }
 }
 btnSubmit.addEventListener('click', displayMarks)
+
+
+//===Loops===//
+//for, while, do while, foreach, for in, for off
+
+// for(let i=0; i<=10; i++){
+//     console.log(i);
+// }
+
+for(let i=0; ){
+    console.log(i);
+}
