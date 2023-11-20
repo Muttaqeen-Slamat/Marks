@@ -104,14 +104,11 @@ for(let i=0; i<=10; i++){
     console.log(i);
 }
 
+ let numbers = [12, 18, 11, 5, 8, 2];
+ console.log(numbers.length);
 
+ for(numbers){
+     console.log(i)
 
-
-
-
-// let numbers = [12, 18, 11, 5, 8, 2];
-// console.log(numbers.length);
-
-// for( ){
-//     console.log()
-// }
+ }
+ 
